@@ -1,0 +1,78 @@
+/* .navbar-toggler{
+    outline: none !important;
+    padding: 0 !important;
+}
+
+.navbar-toggler img{
+    width:35px;
+}
+
+.navbar-brand img{
+   width: 110px; 
+}
+.nav-link{
+    color: red;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.nav-link::hover{
+    color: red;
+    background-color: red;
+} */
+
+
+/* Navbar.css */
+.navbar {
+    display: none; /* Hide the navbar by default */
+    /* Your other styles */
+  }
+  
+  .navbar-toggler {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    display: block;
+  }
+  
+  .navbar-collapse {
+    display: none;
+  }
+  
+  .navbar-collapse.show {
+    display: block;
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Media query to show the navbar when the screen width is above 768px */
+  @media (min-width: 769px) {
+    .navbar {
+      display: flex; /* Show the navbar */
+    }
+  
+    .navbar-collapse {
+      display: block; /* Show the navbar links */
+    }
+  }
+  
